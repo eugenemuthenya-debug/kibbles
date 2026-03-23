@@ -10,7 +10,7 @@ const Footer=()=>{
             </div>
 
             <div className='col-md-4'>
-                <h4 className=''>Contact us</h4>
+                <h4 className='text-dark'>Contact us</h4>
                 <form>
                     <input type='email' placeholder='Enter your email' className='form-control' required/>
                     <br/>
@@ -19,6 +19,15 @@ const Footer=()=>{
                     <br/>
                     <button type='submit' className='btn btn-dark'>Send message</button>
                 </form>
+            </div>
+
+            <div className='col-md-4 text-center'>
+                <h4 class="text-center">Let's grow together. Stay in touch</h4>
+                <a href="https://www.facebook.com"><img src="/images/fb.png" alt=""/></a>
+                <a href="https://www.instagram.com"><img src="images/in.png" alt=""/></a>
+                <a href="https://www.x.com"><img src="images/x.png" alt=""/></a>
+                <p class="mt-3">See it in the wild. Join our community</p>
+
             </div>
             
 
