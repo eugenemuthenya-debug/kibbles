@@ -37,30 +37,30 @@ const GetProducts = () => {
       <Navbar />
       
       <div>
-         <div className='row'>
-         <div class="col-md-12">
-                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+         <div className='row mt-4 container-fluuid nav'>
+         <div className="col-md-12">
+                <div className="carousel slide" data-bs-ride="carousel" id="mycarousel">
                     
-                    <div class="carousel-inner">
+                    <div className="carousel-inner">
                         
-                        <div class="carousel-item active">
+                        <div className="carousel-item active">
                             <img src="/images/image1dog.jpeg" alt="slide 1" className="d-block carousel_img"/>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <img src="/images/imagedog2.jpeg" alt="Slide 2" className="d-block carousel_img"/>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <img src="/images/imagedog3.jpeg" alt="Slide 2" className="d-block carousel_img"/>
                         </div>
                        
 
                     </div>
                    
-                    <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev ">
-                        <span class="carousel-control-prev-icon bg-danger"></span>
+                    <a href="#mycarousel" data-bs-slide="prev" className="carousel-control-prev ">
+                        <span className="carousel-control-prev-icon bg-danger"></span>
                     </a>
-                    <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next">
-                        <span class="carousel-control-next-icon bg-danger"></span>
+                    <a href="#mycarousel" data-bs-slide="next" className="carousel-control-next">
+                        <span className="carousel-control-next-icon bg-danger"></span>
                     </a>
                 </div>
 
