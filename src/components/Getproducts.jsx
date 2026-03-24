@@ -37,7 +37,7 @@ const GetProducts = () => {
       <Navbar />
       
       <div>
-         <div className='row mt-4 container-fluuid nav'>
+       <div className='row mt-4 container-fluid nav'>
          <div className="col-md-12">
                 <div className="carousel slide" data-bs-ride="carousel" id="mycarousel">
                     
