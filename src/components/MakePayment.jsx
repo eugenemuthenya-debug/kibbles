@@ -19,7 +19,6 @@ const MakePayment = () => {
             const data = new FormData()
             data.apppend("phone", phone)
             data.append("amount",product.product_cost)
-
             const response=await axios.post("https://eugene.alwaysdata.net/api/mpesa_payment",data)
         } catch (error) {
             setMessage("")
