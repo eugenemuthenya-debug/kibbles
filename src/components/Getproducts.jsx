@@ -2,7 +2,6 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Navbar from './Navbar'
-
 const GetProducts = () => {
   const [products, setProducts] = useState([])// empty array
   const [loading, setLoading] = useState("")

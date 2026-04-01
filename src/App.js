@@ -4,7 +4,6 @@ import './App.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Signup from './components/Signup';
 import Getproducts from './components/Getproducts';
-import Navbar from './components/Navbar';
 import Signin from './components/Signin';
 import MakePayment from './components/MakePayment';
 import AddProducts from './components/Addproducts';

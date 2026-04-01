@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import Navbar from './Navbar'
-
 const AddProducts = () => {
   const[product_name,setProduct_name]=useState("")
   const[product_description,setProduct_description]=useState("")

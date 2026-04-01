@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
-
 const MakePayment = () => {
     //destructure/extract the state product that has been sent/parsed to this component
     const { product } = useLocation().state || {}
